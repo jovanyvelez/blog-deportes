@@ -1,0 +1,20 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1730579831761,
+      "tag": "0000_melodic_micromax",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1730586710398,
+      "tag": "0001_daily_unus",
+      "breakpoints": true
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+Vamos a instalar los paquetes necesarios para trabajar con drizzle ORM:
+
+1. bun add drizzle-orm @libsql/client
+
+2. bun add -D drizzle-kit
