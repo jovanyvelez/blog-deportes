@@ -5,9 +5,6 @@ import { createClient } from '@libsql/client';
 import * as schema from '$lib/server/database/schema';
 
 
-
-	throw new Error('DATABASE_AUTH_TOKEN no fue definida en entorno');
-
 const client = createClient({ url: env.DATABASE_URL, authToken: env.DATABASE_AUTH_TOKEN });
 
 export const db = drizzle(client, {schema ,casing: 'snake_case' });
