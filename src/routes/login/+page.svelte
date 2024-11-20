@@ -28,7 +28,7 @@
 		{/if}
 
 		<button type="submit">Register</button>
-		<a href="/" class="text-red-400"> <Salir /></a>
+		<a href="/" class="text-red-400"> <Salir /> <small> Regresar</small> </a>
 	</form>
 </div>
 
